@@ -142,6 +142,17 @@
             ]
         },
         {
+            "name": "kde-cli-tools",
+            "buildsystem": "cmake-ninja",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://download.kde.org/stable/plasma/5.23.3/kde-cli-tools-5.23.3.tar.xz",
+                    "sha256": "4069a881b04f065bb56d5eae8ac2499fe276071e9350e23d919d4e62cd521c39"
+                }
+            ]
+        },
+        {
             "name": "ark",
             "cleanup": [ "/share/icons", "/share/doc", "/share/man", "/share/config.kcfg", "/share/kxmlgui5" ],
             "buildsystem": "cmake-ninja",
